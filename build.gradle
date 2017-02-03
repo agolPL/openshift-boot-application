@@ -11,12 +11,6 @@ buildscript {
     }
 }
 
-
-    tasks.withType(Jar) {
-        destinationDir = file("/opt/openshift/app.jar")
-    }
-
-
 group 'pl.osec.openshift.sti'
 version '1.0.0'
 
